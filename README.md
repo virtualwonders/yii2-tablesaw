@@ -28,4 +28,4 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \virtualwonders\tablesaw\AutoloadExample::widget(); ?>```
+<?= \virtualwonders\tablesaw\TableSawAsset::register($view); ?>```
