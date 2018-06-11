@@ -12,8 +12,12 @@ use yii\web\AssetBundle;
 class TableSawAsset extends AssetBundle
 {
     public $sourcePath = '@vendor/virtualwonders/yii2-tablesaw/tablesaw/dist';
+    public $css = [
+        'tablesaw.css',
+    ];
     public $js = [
-        'js/jquery-ui.min.js',
+        'tablesaw.jquery.js',
+        'tablesaw.init.js',
     ];
     public $depends = [
         'dmstr\web\AdminLteAsset',
