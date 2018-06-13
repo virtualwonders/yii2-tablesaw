@@ -11,7 +11,7 @@ use yii\web\AssetBundle;
  */
 class TableSawAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/virtualwonders/yii2-tablesaw/src/dist';
+    public $sourcePath = '@vendor/virtualwonders/yii2-tablesaw/dist';
     public $css = [
         'tablesaw.css',
     ];
